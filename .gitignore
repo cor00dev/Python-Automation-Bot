@@ -1,0 +1,6 @@
+# Cartelle e file da ignorare
+.venv/
+.env
+finanza_bot.db
+__pycache__/
+*.pyc
