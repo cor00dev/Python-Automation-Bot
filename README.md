@@ -17,7 +17,7 @@ This bot streamlines financial management by providing an automated interface fo
 - **Library:** `python-telegram-bot` / `aiogram`
 - **Data/APIs:** REST API integrations (Financial data)
 - **Deployment:** Optimized for VPS or Cloud environments
-
+  
 ## ⚙️ Installation & Setup
 -Follow these steps to set up the project on your local machine:
 
@@ -31,12 +31,11 @@ This bot streamlines financial management by providing an automated interface fo
 
 -Bash
 -python -m venv .venv
--.venv\Scripts\activate
+.venv\Scripts\activate
 
 -On macOS/Linux:
 -Bash
--python3 -m venv .venv
--source .venv/bin/activate
+-python3 -m venv .venv-source .venv/bin/activate
 -Install dependencies:
 -Make sure you are in the project folder (where requirements.txt is located) and run:
 
@@ -44,13 +43,13 @@ This bot streamlines financial management by providing an automated interface fo
 -cd Python-Automation-Bot
 -pip install -r requirements.txt
 -Environment Configuration:
--Create a .env file in the main folder and add your Telegram Bot Token:
 
+-Create a .env file in the main folder and add your Telegram Bot Token and Admin id:
 -Plaintext
 -BOT_TOKEN=your_telegram_bot_token_here
 -ADMIN_ID=your_id_telegram
--Run the bot:
 
+-Run the bot:
 -Bash
 -python bot_finanza.py
 
