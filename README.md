@@ -19,39 +19,40 @@ This bot streamlines financial management by providing an automated interface fo
 - **Deployment:** Optimized for VPS or Cloud environments
 
 ## ⚙️ Installation & Setup
-Follow these steps to set up the project on your local machine:
+-Follow these steps to set up the project on your local machine:
 
-Clone the repository:
+-Clone the repository:
 
-Bash
-git clone https://github.com/cor00dev/Python-Automation-Bot.git
+-Bash
+-git clone https://github.com/cor00dev/Python-Automation-Bot.git
 
-Create and activate a virtual environment:
-On Windows:
+-Create and activate a virtual environment:
+-On Windows:
 
-Bash
-python -m venv .venv
-.venv\Scripts\activate
-On macOS/Linux:
+-Bash
+-python -m venv .venv
+-.venv\Scripts\activate
 
-Bash
-python3 -m venv .venv
-source .venv/bin/activate
-Install dependencies:
-Make sure you are in the project folder (where requirements.txt is located) and run:
+-On macOS/Linux:
+-Bash
+-python3 -m venv .venv
+-source .venv/bin/activate
+-Install dependencies:
+-Make sure you are in the project folder (where requirements.txt is located) and run:
 
-Bash
-cd Python-Automation-Bot
-pip install -r requirements.txt
-Environment Configuration:
-Create a .env file in the main folder and add your Telegram Bot Token:
+-Bash
+-cd Python-Automation-Bot
+-pip install -r requirements.txt
+-Environment Configuration:
+-Create a .env file in the main folder and add your Telegram Bot Token:
 
-Plaintext
-BOT_TOKEN=your_telegram_bot_token_here
-Run the bot:
+-Plaintext
+-BOT_TOKEN=your_telegram_bot_token_here
+-ADMIN_ID=your_id_telegram
+-Run the bot:
 
-Bash
-python bot_finanza.py
+-Bash
+-python bot_finanza.py
 
 ## 📩 Get Your Own Custom Financial Tool
 Do you need an automated solution for market monitoring, trading alerts, or financial reporting? I build custom Telegram bots tailored to your specific needs.
